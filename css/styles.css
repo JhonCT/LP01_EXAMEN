@@ -1,0 +1,89 @@
+* {
+	margin: 0 auto;
+}
+body{
+	width: 100%;
+	height: 1500px;
+}
+nav {
+	width: 90%;
+	height: 60px;
+	border: 1px black solid;
+}
+nav img{
+	width: 10%;
+	height: 60px;
+	float: left;
+}
+nav ul{
+	width: 20%;
+	height: 60px;
+	float: left;
+	list-style: none;
+	display: flex;
+	color: white;	
+	margin-left: -40px;
+}
+nav ul li {
+	width: 80px;
+	height: 20px;
+	padding: 20px;
+}
+nav ul li a{
+	width: 120px;
+	height: 60px;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	font-size: 20px;
+	font-family: arial;
+}
+nav ul li:hover {
+	background: skyblue;
+}
+
+#main-top{
+	width: 90%;
+	height: 800px;
+	background: white;
+}
+#section-left {
+	width: 30%;
+	float: left;
+}
+#section-left div {
+	width: 70%;
+	height: 300px;
+	margin-left: 150px; 
+	margin-top: 300px;
+}
+#section-left div .titulo {
+	text-align: left;
+	color: blue;	
+	font-size: 29px; 
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#section-left div .descripcion{
+	font-size: 24px;
+}
+#section-right {
+	width: 70%;
+	height: 300px;
+	float: right;
+}
+#section-right img {
+	width: 90%;
+	height: 800px;
+	margin: 50px;
+}
+#main-bot {
+	width: 90%;
+	height: 320px;
+	columns: 3;
+	margin-top: 110px;
+}
+#main-bot div img {
+	width: 100%;
+	height:310px;
+}

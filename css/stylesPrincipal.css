@@ -1,0 +1,72 @@
+* {
+	margin: 0 auto;
+}
+body {
+	width: 90%;
+	height: 800px;
+}
+#produc {
+	width: 15%;
+	height: 40px;	
+	margin: 20px;
+	border: 1px black solid;
+	border-radius: 10px;	
+	font-size: 15px;
+}
+#info-producto {
+	width: 90%;
+	height: 50px;
+	display: none;
+	margin-bottom: 30px; 
+}
+input {
+	border: 1px black solid;
+	border-radius: 10px;
+	height: 40px;
+	padding: 10px;
+	margin-top: 5px;
+	font-size: 18px;
+}
+button {
+	border: none;
+	background: skyblue;
+	width: 100px;
+	height: 40px;
+	color: white;	
+	border-radius: 10px;
+}
+#tabla {
+	font-size: 20px;
+	width: 50%;
+	height: 500px;
+}
+#tabla th {
+	background: skyblue;
+	width: 150px;
+	height: 30px;
+	border-radius: 10px;
+}
+#precio-total{
+	width: 30%;
+	height: 150px;
+	padding: 30px;
+	display: block;
+}
+
+#precio-total input {	
+	color: black;
+	
+}
+#precio-total label{
+	margin: 10px;
+	padding: 10px;
+}
+#precio-total #subtotal{
+	margin-left: 10px;
+}
+#precio-total #igv {
+	margin-left: 22px;
+}
+#precio-total #total {
+	margin-left: 40px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Principal</title>
+	<link rel="stylesheet" href="../css/stylesPrincipal.css">
+</head>
+<body>		
+	<div id="selector">
+		<select name="produc" id="produc" onclick="agregar()">
+			<option value="" disabled selected>Seleccione un producto...</option>
+			<option value="1">Arroz</option>
+			<option value="2">Azucar</option>
+			<option value="3">Carne</option>
+		</select>
+	</div>
+	<div id="info-producto">
+		<label for="nombre">Nombre</label>
+		<input type="text" id="nombre-pro" name="nombre">
+		<label for="cantidad">Cantidad</label>
+		<input type="text" id="cantidad-pro" onkeyup="precio()" name="cantidad">
+		<label for="precio">Precio</label>
+		<input type="text" id="precio-pro" name="precio">
+		<label for="stock">Stock</label>
+		<input type="text" id="stock-pro" name="stock">
+		<button id="btn-guardar" onclick="registrar()">Agregar</button>
+	</div>
+
+	<div id="tabla">
+		<table id="tabla-producto">
+			<tr>
+				<th>Producto</th>
+				<th>Cantidad</th>
+				<th>Precio</th>
+			</tr>
+
+			<tbody id="productos">
+			
+			</tbody>
+		</table>
+	</div>
+	<div id="precio-total">
+		<label for="subtotal">Sub Total:</label>
+		<input type="text" disabled name="subtotal" id="subtotal"><br>
+
+		<label for="igv">IGV % :</label>
+		<input type="text" disabled name="igv" id="igv"><br>
+
+		<label for="total">Total:</label>
+		<input type="text" disabled name="total" id="total"><br>
+	</div>
+	
+	<script src="../js/scriptCrud.js"></script>
+</body>
+</html>
